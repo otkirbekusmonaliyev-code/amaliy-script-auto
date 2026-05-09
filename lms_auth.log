@@ -1,0 +1,298 @@
+[16:44:28] i  Tekshiruv boshlandi: 08/05/2026, 16:44:28
+
+============================================================
+Run: 08/05/2026, 16:44:28
+============================================================
+[16:44:28] i  8 ta rol: CEO, super_admin, Administrator, Teacher, HR, Moliya, Marketolog, O'quv bolim manager
+[16:44:28] i  Concurrency: 3 | Timeout: 10000ms | Retries: 3
+[16:44:28] !  Urinish 1/3 xato — 1500ms kutilmoqda...
+[16:44:28] +  Login muvaffaqiyatli! (HTTP 201)
+[16:44:28] *  Token: eyJhbGciOiJIUz...
+[16:44:28] i  Logout URL aniqlanmoqda...
+[16:44:28] +  Login muvaffaqiyatli! (HTTP 201)
+[16:44:28] *  Token: eyJhbGciOiJIUz...
+[16:44:28] i  Logout URL aniqlanmoqda...
+[16:44:29] !  https://dev.api.lms.itechacademy.uz/api/auth/logout -> HTTP 404 (yo'q)
+[16:44:29] !  https://dev.api.lms.itechacademy.uz/api/auth/sign-out -> HTTP 404 (yo'q)
+[16:44:29] !  https://dev.api.lms.itechacademy.uz/api/auth/logout -> HTTP 404 (yo'q)
+[16:44:29] !  https://dev.api.lms.itechacademy.uz/api/auth/signout -> HTTP 404 (yo'q)
+[16:44:29] !  https://dev.api.lms.itechacademy.uz/api/auth/sign-out -> HTTP 404 (yo'q)
+[16:44:29] !  https://dev.api.lms.itechacademy.uz/api/logout -> HTTP 404 (yo'q)
+[16:44:29] !  https://dev.api.lms.itechacademy.uz/api/auth/signout -> HTTP 404 (yo'q)
+[16:44:29] !  https://dev.api.lms.itechacademy.uz/api/user/logout -> HTTP 404 (yo'q)
+[16:44:29] x  Hech bir logout endpoint ishlamadi.
+[16:44:29] !  Logout endpoint topilmadi.
+[16:44:29] i  Davomiyligi: 1227ms
+[16:44:29] !  https://dev.api.lms.itechacademy.uz/api/logout -> HTTP 404 (yo'q)
+[16:44:29] +  Login muvaffaqiyatli! (HTTP 201)
+[16:44:29] *  Token: eyJhbGciOiJIUz...
+[16:44:29] i  Logout URL aniqlanmoqda...
+[16:44:29] !  https://dev.api.lms.itechacademy.uz/api/user/logout -> HTTP 404 (yo'q)
+[16:44:29] x  Hech bir logout endpoint ishlamadi.
+[16:44:29] !  Logout endpoint topilmadi.
+[16:44:29] i  Davomiyligi: 1437ms
+[16:44:30] !  https://dev.api.lms.itechacademy.uz/api/auth/logout -> HTTP 404 (yo'q)
+[16:44:30] !  https://dev.api.lms.itechacademy.uz/api/auth/sign-out -> HTTP 404 (yo'q)
+[16:44:30] +  Login muvaffaqiyatli! (HTTP 201)
+[16:44:30] *  Token: eyJhbGciOiJIUz...
+[16:44:30] i  Logout URL aniqlanmoqda...
+[16:44:30] !  https://dev.api.lms.itechacademy.uz/api/auth/logout -> HTTP 404 (yo'q)
+[16:44:30] !  https://dev.api.lms.itechacademy.uz/api/auth/signout -> HTTP 404 (yo'q)
+[16:44:30] !  https://dev.api.lms.itechacademy.uz/api/logout -> HTTP 404 (yo'q)
+[16:44:30] !  https://dev.api.lms.itechacademy.uz/api/auth/sign-out -> HTTP 404 (yo'q)
+[16:44:30] !  https://dev.api.lms.itechacademy.uz/api/auth/signout -> HTTP 404 (yo'q)
+[16:44:30] !  https://dev.api.lms.itechacademy.uz/api/user/logout -> HTTP 404 (yo'q)
+[16:44:30] x  Hech bir logout endpoint ishlamadi.
+[16:44:30] !  Logout endpoint topilmadi.
+[16:44:30] i  Davomiyligi: 716ms
+[16:44:30] !  https://dev.api.lms.itechacademy.uz/api/logout -> HTTP 404 (yo'q)
+[16:44:30] !  Urinish 2/3 xato — 3000ms kutilmoqda...
+[16:44:30] +  Login muvaffaqiyatli! (HTTP 201)
+[16:44:30] *  Token: eyJhbGciOiJIUz...
+[16:44:30] i  Logout URL aniqlanmoqda...
+[16:44:30] !  https://dev.api.lms.itechacademy.uz/api/user/logout -> HTTP 404 (yo'q)
+[16:44:30] x  Hech bir logout endpoint ishlamadi.
+[16:44:30] !  Logout endpoint topilmadi.
+[16:44:30] i  Davomiyligi: 716ms
+[16:44:30] !  https://dev.api.lms.itechacademy.uz/api/auth/logout -> HTTP 404 (yo'q)
+[16:44:30] +  Login muvaffaqiyatli! (HTTP 201)
+[16:44:30] *  Token: eyJhbGciOiJIUz...
+[16:44:30] i  Logout URL aniqlanmoqda...
+[16:44:30] !  https://dev.api.lms.itechacademy.uz/api/auth/sign-out -> HTTP 404 (yo'q)
+[16:44:30] !  https://dev.api.lms.itechacademy.uz/api/auth/logout -> HTTP 404 (yo'q)
+[16:44:30] !  https://dev.api.lms.itechacademy.uz/api/auth/signout -> HTTP 404 (yo'q)
+[16:44:31] !  https://dev.api.lms.itechacademy.uz/api/logout -> HTTP 404 (yo'q)
+[16:44:31] !  https://dev.api.lms.itechacademy.uz/api/auth/sign-out -> HTTP 404 (yo'q)
+[16:44:31] !  https://dev.api.lms.itechacademy.uz/api/user/logout -> HTTP 404 (yo'q)
+[16:44:31] x  Hech bir logout endpoint ishlamadi.
+[16:44:31] !  Logout endpoint topilmadi.
+[16:44:31] i  Davomiyligi: 710ms
+[16:44:31] !  https://dev.api.lms.itechacademy.uz/api/auth/signout -> HTTP 404 (yo'q)
+[16:44:31] !  https://dev.api.lms.itechacademy.uz/api/logout -> HTTP 404 (yo'q)
+[16:44:31] +  Login muvaffaqiyatli! (HTTP 201)
+[16:44:31] *  Token: eyJhbGciOiJIUz...
+[16:44:31] i  Logout URL aniqlanmoqda...
+[16:44:31] !  https://dev.api.lms.itechacademy.uz/api/user/logout -> HTTP 404 (yo'q)
+[16:44:31] x  Hech bir logout endpoint ishlamadi.
+[16:44:31] !  Logout endpoint topilmadi.
+[16:44:31] i  Davomiyligi: 720ms
+[16:44:31] !  https://dev.api.lms.itechacademy.uz/api/auth/logout -> HTTP 404 (yo'q)
+[16:44:31] !  https://dev.api.lms.itechacademy.uz/api/auth/sign-out -> HTTP 404 (yo'q)
+[16:44:31] !  https://dev.api.lms.itechacademy.uz/api/auth/signout -> HTTP 404 (yo'q)
+[16:44:31] !  https://dev.api.lms.itechacademy.uz/api/logout -> HTTP 404 (yo'q)
+[16:44:31] !  https://dev.api.lms.itechacademy.uz/api/user/logout -> HTTP 404 (yo'q)
+[16:44:31] x  Hech bir logout endpoint ishlamadi.
+[16:44:31] !  Logout endpoint topilmadi.
+[16:44:31] i  Davomiyligi: 712ms
+[16:44:33] x  Login rad etildi — HTTP 401: User not found
+[16:44:33] i  Davomiyligi: 5287ms
+[16:44:33] !  Telegram xabar yuborilmadi
+[14:27:38] i  Tekshiruv boshlandi: 09/05/2026, 14:27:38
+
+============================================================
+Run: 09/05/2026, 14:27:38
+============================================================
+[14:27:38] i  8 ta rol: CEO, super_admin, Administrator, Teacher, HR, Moliya, Marketolog, O'quv bolim manager
+[14:27:38] i  Concurrency: 3 | Timeout: 10000ms | Retries: 3
+[14:27:39] !  Urinish 1/3 xato — 1500ms kutilmoqda...
+[14:27:39] +  Login muvaffaqiyatli! (HTTP 201)
+[14:27:39] *  Token: eyJhbGciOiJIUz...
+[14:27:39] i  Logout URL aniqlanmoqda...
+[14:27:39] +  Login muvaffaqiyatli! (HTTP 201)
+[14:27:39] *  Token: eyJhbGciOiJIUz...
+[14:27:39] i  Logout URL aniqlanmoqda...
+[14:27:39] !  https://dev.api.lms.itechacademy.uz/api/auth/logout -> HTTP 404 (yo'q)
+[14:27:39] !  https://dev.api.lms.itechacademy.uz/api/auth/sign-out -> HTTP 404 (yo'q)
+[14:27:40] !  https://dev.api.lms.itechacademy.uz/api/auth/logout -> HTTP 404 (yo'q)
+[14:27:40] !  https://dev.api.lms.itechacademy.uz/api/auth/signout -> HTTP 404 (yo'q)
+[14:27:40] !  https://dev.api.lms.itechacademy.uz/api/auth/sign-out -> HTTP 404 (yo'q)
+[14:27:40] !  https://dev.api.lms.itechacademy.uz/api/logout -> HTTP 404 (yo'q)
+[14:27:40] !  https://dev.api.lms.itechacademy.uz/api/auth/signout -> HTTP 404 (yo'q)
+[14:27:40] !  https://dev.api.lms.itechacademy.uz/api/user/logout -> HTTP 404 (yo'q)
+[14:27:40] x  Hech bir logout endpoint ishlamadi.
+[14:27:40] !  Logout endpoint topilmadi.
+[14:27:40] i  Davomiyligi: 1625ms
+[14:27:40] !  https://dev.api.lms.itechacademy.uz/api/logout -> HTTP 404 (yo'q)
+[14:27:40] +  Login muvaffaqiyatli! (HTTP 201)
+[14:27:40] *  Token: eyJhbGciOiJIUz...
+[14:27:40] i  Logout URL aniqlanmoqda...
+[14:27:40] !  https://dev.api.lms.itechacademy.uz/api/user/logout -> HTTP 404 (yo'q)
+[14:27:40] x  Hech bir logout endpoint ishlamadi.
+[14:27:40] !  Logout endpoint topilmadi.
+[14:27:40] i  Davomiyligi: 2023ms
+[14:27:40] !  https://dev.api.lms.itechacademy.uz/api/auth/logout -> HTTP 404 (yo'q)
+[14:27:40] !  https://dev.api.lms.itechacademy.uz/api/auth/sign-out -> HTTP 404 (yo'q)
+[14:27:41] +  Login muvaffaqiyatli! (HTTP 201)
+[14:27:41] *  Token: eyJhbGciOiJIUz...
+[14:27:41] i  Logout URL aniqlanmoqda...
+[14:27:41] !  Urinish 2/3 xato — 3000ms kutilmoqda...
+[14:27:41] !  https://dev.api.lms.itechacademy.uz/api/auth/signout -> HTTP 404 (yo'q)
+[14:27:41] !  https://dev.api.lms.itechacademy.uz/api/auth/logout -> HTTP 404 (yo'q)
+[14:27:41] !  https://dev.api.lms.itechacademy.uz/api/logout -> HTTP 404 (yo'q)
+[14:27:41] !  https://dev.api.lms.itechacademy.uz/api/auth/sign-out -> HTTP 404 (yo'q)
+[14:27:41] !  https://dev.api.lms.itechacademy.uz/api/user/logout -> HTTP 404 (yo'q)
+[14:27:41] x  Hech bir logout endpoint ishlamadi.
+[14:27:41] !  Logout endpoint topilmadi.
+[14:27:41] i  Davomiyligi: 899ms
+[14:27:41] !  https://dev.api.lms.itechacademy.uz/api/auth/signout -> HTTP 404 (yo'q)
+[14:27:41] !  https://dev.api.lms.itechacademy.uz/api/logout -> HTTP 404 (yo'q)
+[14:27:41] +  Login muvaffaqiyatli! (HTTP 201)
+[14:27:41] *  Token: eyJhbGciOiJIUz...
+[14:27:41] i  Logout URL aniqlanmoqda...
+[14:27:41] !  https://dev.api.lms.itechacademy.uz/api/user/logout -> HTTP 404 (yo'q)
+[14:27:41] x  Hech bir logout endpoint ishlamadi.
+[14:27:41] !  Logout endpoint topilmadi.
+[14:27:41] i  Davomiyligi: 784ms
+[14:27:41] !  https://dev.api.lms.itechacademy.uz/api/auth/logout -> HTTP 404 (yo'q)
+[14:27:41] !  https://dev.api.lms.itechacademy.uz/api/auth/sign-out -> HTTP 404 (yo'q)
+[14:27:41] +  Login muvaffaqiyatli! (HTTP 201)
+[14:27:41] *  Token: eyJhbGciOiJIUz...
+[14:27:41] i  Logout URL aniqlanmoqda...
+[14:27:42] !  https://dev.api.lms.itechacademy.uz/api/auth/signout -> HTTP 404 (yo'q)
+[14:27:42] !  https://dev.api.lms.itechacademy.uz/api/auth/logout -> HTTP 404 (yo'q)
+[14:27:42] !  https://dev.api.lms.itechacademy.uz/api/logout -> HTTP 404 (yo'q)
+[14:27:42] !  https://dev.api.lms.itechacademy.uz/api/auth/sign-out -> HTTP 404 (yo'q)
+[14:27:42] !  https://dev.api.lms.itechacademy.uz/api/user/logout -> HTTP 404 (yo'q)
+[14:27:42] x  Hech bir logout endpoint ishlamadi.
+[14:27:42] !  Logout endpoint topilmadi.
+[14:27:42] i  Davomiyligi: 1131ms
+[14:27:42] !  https://dev.api.lms.itechacademy.uz/api/auth/signout -> HTTP 404 (yo'q)
+[14:27:42] !  https://dev.api.lms.itechacademy.uz/api/logout -> HTTP 404 (yo'q)
+[14:27:42] +  Login muvaffaqiyatli! (HTTP 201)
+[14:27:42] *  Token: eyJhbGciOiJIUz...
+[14:27:42] i  Logout URL aniqlanmoqda...
+[14:27:42] !  https://dev.api.lms.itechacademy.uz/api/user/logout -> HTTP 404 (yo'q)
+[14:27:42] x  Hech bir logout endpoint ishlamadi.
+[14:27:42] !  Logout endpoint topilmadi.
+[14:27:42] i  Davomiyligi: 1262ms
+[14:27:42] !  https://dev.api.lms.itechacademy.uz/api/auth/logout -> HTTP 404 (yo'q)
+[14:27:43] !  https://dev.api.lms.itechacademy.uz/api/auth/sign-out -> HTTP 404 (yo'q)
+[14:27:43] !  https://dev.api.lms.itechacademy.uz/api/auth/signout -> HTTP 404 (yo'q)
+[14:27:43] !  https://dev.api.lms.itechacademy.uz/api/logout -> HTTP 404 (yo'q)
+[14:27:43] !  https://dev.api.lms.itechacademy.uz/api/user/logout -> HTTP 404 (yo'q)
+[14:27:43] x  Hech bir logout endpoint ishlamadi.
+[14:27:43] !  Logout endpoint topilmadi.
+[14:27:43] i  Davomiyligi: 1126ms
+[14:27:44] x  Login rad etildi — HTTP 401: User not found
+[14:27:44] i  Davomiyligi: 5559ms
+[14:27:44] !  Telegram xabar yuborilmadi
+[14:49:31] i  Tekshiruv boshlandi: 09/05/2026, 14:49:31
+
+============================================================
+Run: 09/05/2026, 14:49:31
+============================================================
+[14:49:31] i  8 ta rol: CEO, super_admin, Administrator, Teacher, HR, Moliya, Marketolog, O'quv bolim manager
+[14:49:31] i  Concurrency: 3 | Timeout: 10000ms | Retries: 3
+[14:49:32] !  Urinish 1/3 xato — 1500ms kutilmoqda...
+[14:49:32] !  Urinish 1/3 xato — 1500ms kutilmoqda...
+[14:49:32] !  Urinish 1/3 xato — 1500ms kutilmoqda...
+[14:49:34] !  Urinish 2/3 xato — 3000ms kutilmoqda...
+[14:49:34] !  Urinish 2/3 xato — 3000ms kutilmoqda...
+[14:49:34] !  Urinish 2/3 xato — 3000ms kutilmoqda...
+[14:49:37] x  Login rad etildi — HTTP 404: Cannot POST /api/users/me/login
+[14:49:37] i  Davomiyligi: 5609ms
+[14:49:37] x  Login rad etildi — HTTP 404: Cannot POST /api/users/me/login
+[14:49:37] i  Davomiyligi: 5614ms
+[14:49:37] x  Login rad etildi — HTTP 404: Cannot POST /api/users/me/login
+[14:49:37] i  Davomiyligi: 5760ms
+[14:49:37] !  Urinish 1/3 xato — 1500ms kutilmoqda...
+[14:49:38] !  Urinish 1/3 xato — 1500ms kutilmoqda...
+[14:49:38] !  Urinish 1/3 xato — 1500ms kutilmoqda...
+[14:49:39] !  Urinish 2/3 xato — 3000ms kutilmoqda...
+[14:49:39] !  Urinish 2/3 xato — 3000ms kutilmoqda...
+[14:49:40] !  Urinish 2/3 xato — 3000ms kutilmoqda...
+[14:49:42] x  Login rad etildi — HTTP 404: Cannot POST /api/users/me/login
+[14:49:42] i  Davomiyligi: 5009ms
+[14:49:42] !  Urinish 1/3 xato — 1500ms kutilmoqda...
+[14:49:43] x  Login rad etildi — HTTP 404: Cannot POST /api/users/me/login
+[14:49:43] i  Davomiyligi: 5509ms
+[14:49:43] !  Urinish 1/3 xato — 1500ms kutilmoqda...
+[14:49:43] x  Login rad etildi — HTTP 404: Cannot POST /api/users/me/login
+[14:49:43] i  Davomiyligi: 5835ms
+[14:49:44] !  Urinish 2/3 xato — 3000ms kutilmoqda...
+[14:49:44] !  Urinish 2/3 xato — 3000ms kutilmoqda...
+[14:49:47] x  Login rad etildi — HTTP 404: Cannot POST /api/users/me/login
+[14:49:47] i  Davomiyligi: 5020ms
+[14:49:48] x  Login rad etildi — HTTP 404: Cannot POST /api/users/me/login
+[14:49:48] i  Davomiyligi: 5016ms
+[14:49:48] !  Telegram xabar yuborilmadi
+[14:50:03] i  Tekshiruv boshlandi: 09/05/2026, 14:50:03
+
+============================================================
+Run: 09/05/2026, 14:50:03
+============================================================
+[14:50:03] i  8 ta rol: CEO, super_admin, Administrator, Teacher, HR, Moliya, Marketolog, O'quv bolim manager
+[14:50:03] i  Concurrency: 3 | Timeout: 10000ms | Retries: 3
+[14:50:04] !  Urinish 1/3 xato — 1500ms kutilmoqda...
+[14:50:04] !  Urinish 1/3 xato — 1500ms kutilmoqda...
+[14:50:04] !  Urinish 1/3 xato — 1500ms kutilmoqda...
+[14:50:06] !  Urinish 2/3 xato — 3000ms kutilmoqda...
+[14:50:06] !  Urinish 2/3 xato — 3000ms kutilmoqda...
+[14:50:06] !  Urinish 2/3 xato — 3000ms kutilmoqda...
+[14:50:09] x  Login rad etildi — HTTP 404: Cannot POST /api/login
+[14:50:09] i  Davomiyligi: 5413ms
+[14:50:09] x  Login rad etildi — HTTP 404: Cannot POST /api/login
+[14:50:09] i  Davomiyligi: 5366ms
+[14:50:09] x  Login rad etildi — HTTP 404: Cannot POST /api/login
+[14:50:09] i  Davomiyligi: 5372ms
+[14:50:09] !  Urinish 1/3 xato — 1500ms kutilmoqda...
+[14:50:09] !  Urinish 1/3 xato — 1500ms kutilmoqda...
+[14:50:09] !  Urinish 1/3 xato — 1500ms kutilmoqda...
+[14:50:11] !  Urinish 2/3 xato — 3000ms kutilmoqda...
+[14:50:11] !  Urinish 2/3 xato — 3000ms kutilmoqda...
+[14:50:11] !  Urinish 2/3 xato — 3000ms kutilmoqda...
+[14:50:14] x  Login rad etildi — HTTP 404: Cannot POST /api/login
+[14:50:14] i  Davomiyligi: 5004ms
+[14:50:14] !  Urinish 1/3 xato — 1500ms kutilmoqda...
+[14:50:14] x  Login rad etildi — HTTP 404: Cannot POST /api/login
+[14:50:14] i  Davomiyligi: 5420ms
+[14:50:14] x  Login rad etildi — HTTP 404: Cannot POST /api/login
+[14:50:14] i  Davomiyligi: 5410ms
+[14:50:15] !  Urinish 1/3 xato — 1500ms kutilmoqda...
+[14:50:16] !  Urinish 2/3 xato — 3000ms kutilmoqda...
+[14:50:17] !  Urinish 2/3 xato — 3000ms kutilmoqda...
+[14:50:19] x  Login rad etildi — HTTP 404: Cannot POST /api/login
+[14:50:19] i  Davomiyligi: 5018ms
+[14:50:20] x  Login rad etildi — HTTP 404: Cannot POST /api/login
+[14:50:20] i  Davomiyligi: 5533ms
+[14:50:20] !  Telegram xabar yuborilmadi
+[14:55:44] i  Tekshiruv boshlandi: 09/05/2026, 14:55:44
+
+============================================================
+Run: 09/05/2026, 14:55:44
+============================================================
+[14:55:44] i  8 ta rol: CEO, super_admin, Administrator, Teacher, HR, Moliya, Marketolog, O'quv bolim manager
+[14:55:44] i  Concurrency: 3 | Timeout: 10000ms | Retries: 3
+[14:55:45] !  Urinish 1/3 xato — 1500ms kutilmoqda...
+[14:55:45] !  Urinish 1/3 xato — 1500ms kutilmoqda...
+[14:55:45] !  Urinish 1/3 xato — 1500ms kutilmoqda...
+[14:55:46] !  Urinish 2/3 xato — 3000ms kutilmoqda...
+[14:55:46] !  Urinish 2/3 xato — 3000ms kutilmoqda...
+[14:55:46] !  Urinish 2/3 xato — 3000ms kutilmoqda...
+[14:55:49] x  Login rad etildi — HTTP 404: Cannot POST /api/auth/login/login
+[14:55:49] i  Davomiyligi: 5667ms
+[14:55:49] x  Login rad etildi — HTTP 404: Cannot POST /api/auth/login/login
+[14:55:49] i  Davomiyligi: 5616ms
+[14:55:49] x  Login rad etildi — HTTP 404: Cannot POST /api/auth/login/login
+[14:55:49] i  Davomiyligi: 5621ms
+[14:55:50] !  Urinish 1/3 xato — 1500ms kutilmoqda...
+[14:55:50] !  Urinish 1/3 xato — 1500ms kutilmoqda...
+[14:55:50] !  Urinish 1/3 xato — 1500ms kutilmoqda...
+[14:55:51] !  Urinish 2/3 xato — 3000ms kutilmoqda...
+[14:55:52] !  Urinish 2/3 xato — 3000ms kutilmoqda...
+[14:55:52] !  Urinish 2/3 xato — 3000ms kutilmoqda...
+[14:55:54] x  Login rad etildi — HTTP 404: Cannot POST /api/auth/login/login
+[14:55:54] i  Davomiyligi: 4970ms
+[14:55:55] !  Urinish 1/3 xato — 1500ms kutilmoqda...
+[14:55:55] x  Login rad etildi — HTTP 404: Cannot POST /api/auth/login/login
+[14:55:55] i  Davomiyligi: 5425ms
+[14:55:55] x  Login rad etildi — HTTP 404: Cannot POST /api/auth/login/login
+[14:55:55] i  Davomiyligi: 5416ms
+[14:55:55] !  Urinish 1/3 xato — 1500ms kutilmoqda...
+[14:55:56] !  Urinish 2/3 xato — 3000ms kutilmoqda...
+[14:55:57] !  Urinish 2/3 xato — 3000ms kutilmoqda...
+[14:55:59] x  Login rad etildi — HTTP 404: Cannot POST /api/auth/login/login
+[14:55:59] i  Davomiyligi: 5056ms
+[14:56:00] x  Login rad etildi — HTTP 404: Cannot POST /api/auth/login/login
+[14:56:00] i  Davomiyligi: 5426ms
+[14:56:00] !  Telegram xabar yuborilmadi

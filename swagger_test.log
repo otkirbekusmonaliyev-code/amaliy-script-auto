@@ -1,0 +1,136 @@
+[14:57:29] i  Boshlandi: 09/05/2026, 14:57:29
+
+============================================================
+Run: 09/05/2026, 14:57:29
+============================================================
+[14:57:29] §  Swagger spec qidirilmoqda: https://dev.api.lms.itechacademy.uz/swagger
+[14:57:31] §  Spec topildi: https://dev.api.lms.itechacademy.uz/swagger-json
+[14:57:31] ✓  Spec parse qilindi. OpenAPI: 3.0.0
+[14:57:31] i  200 ta endpoint topildi
+[14:57:31] §    [rooms]: 5 ta
+[14:57:31] §    [Profile]: 3 ta
+[14:57:31] §    [Code Runner]: 2 ta
+[14:57:31] §    [User Roles]: 6 ta
+[14:57:31] §    [auth]: 3 ta
+[14:57:31] §    [users]: 8 ta
+[14:57:31] §    [Upload]: 1 ta
+[14:57:31] §    [Boards]: 14 ta
+[14:57:31] §    [SocialMedia]: 5 ta
+[14:57:31] §    [Public Users]: 3 ta
+[14:57:31] §    [Attendances]: 11 ta
+[14:57:31] §    [Lessons]: 6 ta
+[14:57:31] §    [Main-report]: 9 ta
+[14:57:31] §    [LessonsSchudule]: 6 ta
+[14:57:31] §    [Teachers]: 7 ta
+[14:57:31] §    [Students]: 12 ta
+[14:57:31] §    [Groups]: 13 ta
+[14:57:31] §    [Questions]: 5 ta
+[14:57:31] §    [Quizs]: 9 ta
+[14:57:31] §    [Payments]: 7 ta
+[14:57:31] §    [Results]: 3 ta
+[14:57:31] §    [Roles]: 6 ta
+[14:57:31] §    [Movement reason]: 5 ta
+[14:57:31] §    [Courses]: 5 ta
+[14:57:31] §    [Discounts]: 6 ta
+[14:57:31] §    [Branch]: 5 ta
+[14:57:31] §    [Dashboard]: 1 ta
+[14:57:31] §    [Admin]: 5 ta
+[14:57:31] §    [PaymentTransactions]: 5 ta
+[14:57:31] §    [Transactions]: 5 ta
+[14:57:31] §    [Finance Report]: 8 ta
+[14:57:31] §    [Salary]: 5 ta
+[14:57:31] §    [Debts]: 6 ta
+[14:57:32] !  Token olinmadi — auth kerak endpointlar skip bo'ladi.
+[14:57:32] i  Test boshlandi (concurrency: 4)...
+[14:57:42] i  JSON natijalar saqlandi: C:\Users\Администратор\Documents\amaliyot\swagger_test_results.json
+[14:57:43] !  Telegram xabar yuborilmadi (TG_BOT_TOKEN?)
+[14:59:38] i  Boshlandi: 09/05/2026, 14:59:38
+
+============================================================
+Run: 09/05/2026, 14:59:38
+============================================================
+[14:59:38] §  Swagger spec qidirilmoqda: https://dev.api.lms.itechacademy.uz/swagger
+[14:59:40] §  Spec topildi: https://dev.api.lms.itechacademy.uz/swagger-json
+[14:59:40] ✓  Spec parse qilindi. OpenAPI: 3.0.0
+[14:59:40] i  200 ta endpoint topildi
+[14:59:40] §    [rooms]: 5 ta
+[14:59:40] §    [Profile]: 3 ta
+[14:59:40] §    [Code Runner]: 2 ta
+[14:59:40] §    [User Roles]: 6 ta
+[14:59:40] §    [auth]: 3 ta
+[14:59:40] §    [users]: 8 ta
+[14:59:40] §    [Upload]: 1 ta
+[14:59:40] §    [Boards]: 14 ta
+[14:59:40] §    [SocialMedia]: 5 ta
+[14:59:40] §    [Public Users]: 3 ta
+[14:59:40] §    [Attendances]: 11 ta
+[14:59:40] §    [Lessons]: 6 ta
+[14:59:40] §    [Main-report]: 9 ta
+[14:59:40] §    [LessonsSchudule]: 6 ta
+[14:59:40] §    [Teachers]: 7 ta
+[14:59:40] §    [Students]: 12 ta
+[14:59:40] §    [Groups]: 13 ta
+[14:59:40] §    [Questions]: 5 ta
+[14:59:40] §    [Quizs]: 9 ta
+[14:59:40] §    [Payments]: 7 ta
+[14:59:40] §    [Results]: 3 ta
+[14:59:40] §    [Roles]: 6 ta
+[14:59:40] §    [Movement reason]: 5 ta
+[14:59:40] §    [Courses]: 5 ta
+[14:59:40] §    [Discounts]: 6 ta
+[14:59:40] §    [Branch]: 5 ta
+[14:59:40] §    [Dashboard]: 1 ta
+[14:59:40] §    [Admin]: 5 ta
+[14:59:40] §    [PaymentTransactions]: 5 ta
+[14:59:40] §    [Transactions]: 5 ta
+[14:59:40] §    [Finance Report]: 8 ta
+[14:59:40] §    [Salary]: 5 ta
+[14:59:40] §    [Debts]: 6 ta
+[14:59:41] !  Token olinmadi — auth kerak endpointlar skip bo'ladi.
+[14:59:41] i  Test boshlandi (concurrency: 4)...
+[14:59:51] i  JSON natijalar saqlandi: C:\Users\Администратор\Documents\amaliyot\swagger_test_results.json
+[14:59:52] !  Telegram xabar yuborilmadi (TG_BOT_TOKEN?)
+[15:04:10] i  Boshlandi: 09/05/2026, 15:04:10
+
+============================================================
+Run: 09/05/2026, 15:04:10
+============================================================
+[15:04:10] §  Swagger spec qidirilmoqda: https://dev.api.lms.itechacademy.uz/swagger
+[15:04:12] §  Spec topildi: https://dev.api.lms.itechacademy.uz/swagger-json
+[15:04:12] ✓  Spec parse qilindi. OpenAPI: 3.0.0
+[15:04:12] i  200 ta endpoint topildi
+[15:04:12] §    [rooms]: 5 ta
+[15:04:12] §    [Profile]: 3 ta
+[15:04:12] §    [Code Runner]: 2 ta
+[15:04:12] §    [User Roles]: 6 ta
+[15:04:12] §    [auth]: 3 ta
+[15:04:12] §    [users]: 8 ta
+[15:04:12] §    [Upload]: 1 ta
+[15:04:12] §    [Boards]: 14 ta
+[15:04:12] §    [SocialMedia]: 5 ta
+[15:04:12] §    [Public Users]: 3 ta
+[15:04:12] §    [Attendances]: 11 ta
+[15:04:12] §    [Lessons]: 6 ta
+[15:04:12] §    [Main-report]: 9 ta
+[15:04:12] §    [LessonsSchudule]: 6 ta
+[15:04:12] §    [Teachers]: 7 ta
+[15:04:12] §    [Students]: 12 ta
+[15:04:12] §    [Groups]: 13 ta
+[15:04:12] §    [Questions]: 5 ta
+[15:04:12] §    [Quizs]: 9 ta
+[15:04:12] §    [Payments]: 7 ta
+[15:04:12] §    [Results]: 3 ta
+[15:04:12] §    [Roles]: 6 ta
+[15:04:12] §    [Movement reason]: 5 ta
+[15:04:12] §    [Courses]: 5 ta
+[15:04:12] §    [Discounts]: 6 ta
+[15:04:12] §    [Branch]: 5 ta
+[15:04:12] §    [Dashboard]: 1 ta
+[15:04:12] §    [Admin]: 5 ta
+[15:04:12] §    [PaymentTransactions]: 5 ta
+[15:04:12] §    [Transactions]: 5 ta
+[15:04:12] §    [Finance Report]: 8 ta
+[15:04:12] §    [Salary]: 5 ta
+[15:04:12] §    [Debts]: 6 ta
+[15:04:12] !  Token olinmadi — auth kerak endpointlar skip bo'ladi.
+[15:04:12] i  Test boshlandi (concurrency: 4)...
