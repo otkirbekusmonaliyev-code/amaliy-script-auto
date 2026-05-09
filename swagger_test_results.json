@@ -1,0 +1,3415 @@
+{
+  "runTime": "09/05/2026, 14:59:38",
+  "specUrl": "https://dev.api.lms.itechacademy.uz/swagger-json",
+  "stats": {
+    "ok": 0,
+    "validation": 0,
+    "auth_required": 0,
+    "not_found": 200,
+    "server_error": 0,
+    "net_error": 0,
+    "error": 0
+  },
+  "results": [
+    {
+      "method": "GET",
+      "path": "/api/rooms",
+      "filledPath": "/api/rooms",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/rooms",
+      "tags": [
+        "rooms"
+      ],
+      "summary": "GET ",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 112,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/rooms\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/rooms/{id}",
+      "filledPath": "/api/rooms/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/rooms/1",
+      "tags": [
+        "rooms"
+      ],
+      "summary": "Get item by id",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 507,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/rooms/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "POST",
+      "path": "/api/rooms/{id}",
+      "filledPath": "/api/rooms/{id}",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/rooms/{id}",
+      "tags": [
+        "rooms"
+      ],
+      "summary": "Create item",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 506,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot POST /api/auth/login/api/rooms/%7Bid%7D\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "PUT",
+      "path": "/api/rooms/{id}",
+      "filledPath": "/api/rooms/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/rooms/1",
+      "tags": [
+        "rooms"
+      ],
+      "summary": "Update item",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 509,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot PUT /api/auth/login/api/rooms/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/rooms/{id}",
+      "filledPath": "/api/rooms/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/rooms/1",
+      "tags": [
+        "rooms"
+      ],
+      "summary": "Delete item",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 194,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot DELETE /api/auth/login/api/rooms/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/profile/qr-code",
+      "filledPath": "/api/profile/qr-code",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/profile/qr-code",
+      "tags": [
+        "Profile"
+      ],
+      "summary": "ProfileController_getAllProfile",
+      "needsAuth": false,
+      "httpStatus": 404,
+      "durationMs": 208,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/profile/qr-code\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/profile/scan/{userId}",
+      "filledPath": "/api/profile/scan/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/profile/scan/1",
+      "tags": [
+        "Profile"
+      ],
+      "summary": "ProfileController_scan",
+      "needsAuth": false,
+      "httpStatus": 404,
+      "durationMs": 204,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/profile/scan/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "POST",
+      "path": "/api/profile/scan/{userId}",
+      "filledPath": "/api/profile/scan/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/profile/scan/1",
+      "tags": [
+        "Profile"
+      ],
+      "summary": "ProfileController_recordAttendance",
+      "needsAuth": false,
+      "httpStatus": 404,
+      "durationMs": 612,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot POST /api/auth/login/api/profile/scan/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "201"
+    },
+    {
+      "method": "GET",
+      "path": "/api/code-runner/languages",
+      "filledPath": "/api/code-runner/languages",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/code-runner/languages",
+      "tags": [
+        "Code Runner"
+      ],
+      "summary": "CodeRunnerController_getLanguages",
+      "needsAuth": false,
+      "httpStatus": 404,
+      "durationMs": 200,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/code-runner/languages\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "POST",
+      "path": "/api/code-runner/execute",
+      "filledPath": "/api/code-runner/execute",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/code-runner/execute",
+      "tags": [
+        "Code Runner"
+      ],
+      "summary": "CodeRunnerController_execute",
+      "needsAuth": false,
+      "httpStatus": 404,
+      "durationMs": 201,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot POST /api/auth/login/api/code-runner/execute\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "201"
+    },
+    {
+      "method": "GET",
+      "path": "/api/user-roles",
+      "filledPath": "/api/user-roles",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/user-roles",
+      "tags": [
+        "User Roles"
+      ],
+      "summary": "Get all user-role assignments",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 206,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/user-roles\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "POST",
+      "path": "/api/user-roles",
+      "filledPath": "/api/user-roles",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/user-roles",
+      "tags": [
+        "User Roles"
+      ],
+      "summary": "Assign a role to a user",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 207,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot POST /api/auth/login/api/user-roles\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "201"
+    },
+    {
+      "method": "GET",
+      "path": "/api/user-roles/user/{userId}",
+      "filledPath": "/api/user-roles/user/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/user-roles/user/1",
+      "tags": [
+        "User Roles"
+      ],
+      "summary": "Get all roles assigned to a specific user",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 203,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/user-roles/user/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/user-roles/{id}",
+      "filledPath": "/api/user-roles/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/user-roles/1",
+      "tags": [
+        "User Roles"
+      ],
+      "summary": "Get a single user-role record by id",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 205,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/user-roles/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/user-roles/{id}",
+      "filledPath": "/api/user-roles/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/user-roles/1",
+      "tags": [
+        "User Roles"
+      ],
+      "summary": "Remove a user-role assignment by record id",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 206,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot DELETE /api/auth/login/api/user-roles/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/user-roles/user/{userId}/role/{roleId}",
+      "filledPath": "/api/user-roles/user/1/role/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/user-roles/user/1/role/1",
+      "tags": [
+        "User Roles"
+      ],
+      "summary": "Remove a specific role from a user",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 614,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot DELETE /api/auth/login/api/user-roles/user/1/role/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "POST",
+      "path": "/api/auth/login",
+      "filledPath": "/api/auth/login",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/auth/login",
+      "tags": [
+        "auth"
+      ],
+      "summary": "Login",
+      "needsAuth": false,
+      "httpStatus": 404,
+      "durationMs": 206,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot POST /api/auth/login/api/auth/login\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "POST",
+      "path": "/api/auth/test-login",
+      "filledPath": "/api/auth/test-login",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/auth/test-login",
+      "tags": [
+        "auth"
+      ],
+      "summary": "AuthController_superAdminLogin",
+      "needsAuth": false,
+      "httpStatus": 404,
+      "durationMs": 201,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot POST /api/auth/login/api/auth/test-login\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "201"
+    },
+    {
+      "method": "POST",
+      "path": "/api/auth/change-password",
+      "filledPath": "/api/auth/change-password",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/auth/change-password",
+      "tags": [
+        "auth"
+      ],
+      "summary": "Change Password",
+      "needsAuth": false,
+      "httpStatus": 404,
+      "durationMs": 204,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot POST /api/auth/login/api/auth/change-password\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/users",
+      "filledPath": "/api/users",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/users",
+      "tags": [
+        "users"
+      ],
+      "summary": "UsersController_findAll",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 205,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/users\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "POST",
+      "path": "/api/users",
+      "filledPath": "/api/users",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/users",
+      "tags": [
+        "users"
+      ],
+      "summary": "UsersController_uploadAvatar",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 203,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot POST /api/auth/login/api/users\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/users/number-of-users",
+      "filledPath": "/api/users/number-of-users",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/users/number-of-users",
+      "tags": [
+        "users"
+      ],
+      "summary": "UsersController_numberOfUsers",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 203,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/users/number-of-users\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/users/me",
+      "filledPath": "/api/users/me",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/users/me",
+      "tags": [
+        "users"
+      ],
+      "summary": "Get current user information",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 134,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/users/me\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/users/{id}",
+      "filledPath": "/api/users/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/users/1",
+      "tags": [
+        "users"
+      ],
+      "summary": "UsersController_findOne",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 130,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/users/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "PUT",
+      "path": "/api/users/{id}",
+      "filledPath": "/api/users/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/users/1",
+      "tags": [
+        "users"
+      ],
+      "summary": "UsersController_update",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 133,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot PUT /api/auth/login/api/users/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/users/{id}",
+      "filledPath": "/api/users/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/users/1",
+      "tags": [
+        "users"
+      ],
+      "summary": "UsersController_delete",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 129,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot DELETE /api/auth/login/api/users/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/users/{branchId}",
+      "filledPath": "/api/users/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/users/1",
+      "tags": [
+        "users"
+      ],
+      "summary": "UsersController_updateCurrentBranch",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 180,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot PATCH /api/auth/login/api/users/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "POST",
+      "path": "/api/upload",
+      "filledPath": "/api/upload",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/upload",
+      "tags": [
+        "Upload"
+      ],
+      "summary": "FileUploadController_uploadFile",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 176,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot POST /api/auth/login/api/upload\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "201"
+    },
+    {
+      "method": "GET",
+      "path": "/api/boards",
+      "filledPath": "/api/boards",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/boards",
+      "tags": [
+        "Boards"
+      ],
+      "summary": "BoardsController_getBoards",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 176,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/boards\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "POST",
+      "path": "/api/boards",
+      "filledPath": "/api/boards",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/boards",
+      "tags": [
+        "Boards"
+      ],
+      "summary": "BoardsController_create",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 177,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot POST /api/auth/login/api/boards\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "201"
+    },
+    {
+      "method": "GET",
+      "path": "/api/boards/list",
+      "filledPath": "/api/boards/list",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/boards/list",
+      "tags": [
+        "Boards"
+      ],
+      "summary": "BoardsController_getBoardList",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 207,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/boards/list\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/boards/visitors-statistic-number",
+      "filledPath": "/api/boards/visitors-statistic-number",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/boards/visitors-statistic-number",
+      "tags": [
+        "Boards"
+      ],
+      "summary": "BoardsController_getVisitorsStatisticNumber",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 202,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/boards/visitors-statistic-number\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/boards/{id}",
+      "filledPath": "/api/boards/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/boards/1",
+      "tags": [
+        "Boards"
+      ],
+      "summary": "BoardsController_findById",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 204,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/boards/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "PUT",
+      "path": "/api/boards/{id}",
+      "filledPath": "/api/boards/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/boards/1",
+      "tags": [
+        "Boards"
+      ],
+      "summary": "BoardsController_update",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 202,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot PUT /api/auth/login/api/boards/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/boards/{id}",
+      "filledPath": "/api/boards/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/boards/1",
+      "tags": [
+        "Boards"
+      ],
+      "summary": "BoardsController_remove",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 206,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot DELETE /api/auth/login/api/boards/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "POST",
+      "path": "/api/boards/visitor",
+      "filledPath": "/api/boards/visitor",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/boards/visitor",
+      "tags": [
+        "Boards"
+      ],
+      "summary": "BoardsController_createVisitor",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 203,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot POST /api/auth/login/api/boards/visitor\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "201"
+    },
+    {
+      "method": "POST",
+      "path": "/api/boards/visitor-change/board",
+      "filledPath": "/api/boards/visitor-change/board",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/boards/visitor-change/board",
+      "tags": [
+        "Boards"
+      ],
+      "summary": "BoardsController_visitorChangeBoard",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 204,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot POST /api/auth/login/api/boards/visitor-change/board\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "201"
+    },
+    {
+      "method": "PUT",
+      "path": "/api/boards/visitor/commit/{visitorId}",
+      "filledPath": "/api/boards/visitor/commit/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/boards/visitor/commit/1",
+      "tags": [
+        "Boards"
+      ],
+      "summary": "BoardsController_visitorChangeCommit",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 204,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot PUT /api/auth/login/api/boards/visitor/commit/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "POST",
+      "path": "/api/boards/visitor/{id}/log",
+      "filledPath": "/api/boards/visitor/1/log",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/boards/visitor/1/log",
+      "tags": [
+        "Boards"
+      ],
+      "summary": "BoardsController_createVisitorLog",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 208,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot POST /api/auth/login/api/boards/visitor/1/log\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "201"
+    },
+    {
+      "method": "GET",
+      "path": "/api/boards/visitor/{id}/logs",
+      "filledPath": "/api/boards/visitor/1/logs",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/boards/visitor/1/logs",
+      "tags": [
+        "Boards"
+      ],
+      "summary": "BoardsController_getVisitorLogs",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 203,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/boards/visitor/1/logs\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "PUT",
+      "path": "/api/boards/visitor/{id}",
+      "filledPath": "/api/boards/visitor/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/boards/visitor/1",
+      "tags": [
+        "Boards"
+      ],
+      "summary": "BoardsController_updateVisitor",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 205,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot PUT /api/auth/login/api/boards/visitor/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/boards/visitor/{id}",
+      "filledPath": "/api/boards/visitor/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/boards/visitor/1",
+      "tags": [
+        "Boards"
+      ],
+      "summary": "BoardsController_removeVisitor",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 202,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot DELETE /api/auth/login/api/boards/visitor/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/social-media",
+      "filledPath": "/api/social-media",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/social-media",
+      "tags": [
+        "SocialMedia"
+      ],
+      "summary": "GET ",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 161,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/social-media\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/social-media/{id}",
+      "filledPath": "/api/social-media/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/social-media/1",
+      "tags": [
+        "SocialMedia"
+      ],
+      "summary": "Get item by id",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 160,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/social-media/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "POST",
+      "path": "/api/social-media/{id}",
+      "filledPath": "/api/social-media/{id}",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/social-media/{id}",
+      "tags": [
+        "SocialMedia"
+      ],
+      "summary": "Create item",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 160,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot POST /api/auth/login/api/social-media/%7Bid%7D\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "PUT",
+      "path": "/api/social-media/{id}",
+      "filledPath": "/api/social-media/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/social-media/1",
+      "tags": [
+        "SocialMedia"
+      ],
+      "summary": "Update item",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 159,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot PUT /api/auth/login/api/social-media/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/social-media/{id}",
+      "filledPath": "/api/social-media/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/social-media/1",
+      "tags": [
+        "SocialMedia"
+      ],
+      "summary": "Delete item",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 149,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot DELETE /api/auth/login/api/social-media/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/public/users",
+      "filledPath": "/api/public/users",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/public/users",
+      "tags": [
+        "Public Users"
+      ],
+      "summary": "PublicUsersController_findAll",
+      "needsAuth": false,
+      "httpStatus": 404,
+      "durationMs": 145,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/public/users\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "PUT",
+      "path": "/api/public/users",
+      "filledPath": "/api/public/users",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/public/users",
+      "tags": [
+        "Public Users"
+      ],
+      "summary": "PublicUsersController_updateHiStatus",
+      "needsAuth": false,
+      "httpStatus": 404,
+      "durationMs": 146,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot PUT /api/auth/login/api/public/users\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "POST",
+      "path": "/api/public/users/attendance",
+      "filledPath": "/api/public/users/attendance",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/public/users/attendance",
+      "tags": [
+        "Public Users"
+      ],
+      "summary": "PublicUsersController_faceCalledUser",
+      "needsAuth": false,
+      "httpStatus": 404,
+      "durationMs": 147,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot POST /api/auth/login/api/public/users/attendance\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "201"
+    },
+    {
+      "method": "GET",
+      "path": "/api/attendances/studentAttendance",
+      "filledPath": "/api/attendances/studentAttendance",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/attendances/studentAttendance",
+      "tags": [
+        "Attendances"
+      ],
+      "summary": "AttendancesController_getEachStudentAttendances",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 204,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/attendances/studentAttendance\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/attendances/attendanceStatsCards",
+      "filledPath": "/api/attendances/attendanceStatsCards",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/attendances/attendanceStatsCards",
+      "tags": [
+        "Attendances"
+      ],
+      "summary": "AttendancesController_getAttendanceStats",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 204,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/attendances/attendanceStatsCards\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/attendances/face-id-attendance",
+      "filledPath": "/api/attendances/face-id-attendance",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/attendances/face-id-attendance",
+      "tags": [
+        "Attendances"
+      ],
+      "summary": "AttendancesController_getFaceIdAttendance",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 204,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/attendances/face-id-attendance\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/attendances/face-id-attendance/{userId}",
+      "filledPath": "/api/attendances/face-id-attendance/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/attendances/face-id-attendance/1",
+      "tags": [
+        "Attendances"
+      ],
+      "summary": "AttendancesController_getFaceIdAttendanceUserList",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 203,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/attendances/face-id-attendance/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/attendances/face-id-attendance-students",
+      "filledPath": "/api/attendances/face-id-attendance-students",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/attendances/face-id-attendance-students",
+      "tags": [
+        "Attendances"
+      ],
+      "summary": "AttendancesController_getFaceIdAttendanceStudent",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 208,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/attendances/face-id-attendance-students\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/attendances/success/{groupId}",
+      "filledPath": "/api/attendances/success/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/attendances/success/1",
+      "tags": [
+        "Attendances"
+      ],
+      "summary": "AttendancesController_updateAttendanceSuccess",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 204,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/attendances/success/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/attendances/{groupId}",
+      "filledPath": "/api/attendances/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/attendances/1",
+      "tags": [
+        "Attendances"
+      ],
+      "summary": "AttendancesController_getAttendances",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 202,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/attendances/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/attendances/previousMonths/{groupId}",
+      "filledPath": "/api/attendances/previousMonths/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/attendances/previousMonths/1",
+      "tags": [
+        "Attendances"
+      ],
+      "summary": "AttendancesController_getPreviousMonthsAttendance",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 205,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/attendances/previousMonths/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/attendances/attendanceStatsCards/{groupId}",
+      "filledPath": "/api/attendances/attendanceStatsCards/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/attendances/attendanceStatsCards/1",
+      "tags": [
+        "Attendances"
+      ],
+      "summary": "AttendancesController_getAttendanceStatsByGroup",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 206,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/attendances/attendanceStatsCards/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "PUT",
+      "path": "/api/attendances/{id}",
+      "filledPath": "/api/attendances/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/attendances/1",
+      "tags": [
+        "Attendances"
+      ],
+      "summary": "AttendancesController_updateAttendanceById",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 206,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot PUT /api/auth/login/api/attendances/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/attendances/{id}",
+      "filledPath": "/api/attendances/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/attendances/1",
+      "tags": [
+        "Attendances"
+      ],
+      "summary": "AttendancesController_updateAttendance",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 206,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot PATCH /api/auth/login/api/attendances/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/lessons",
+      "filledPath": "/api/lessons",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/lessons",
+      "tags": [
+        "Lessons"
+      ],
+      "summary": "GET ",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 204,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/lessons\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "POST",
+      "path": "/api/lessons",
+      "filledPath": "/api/lessons",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/lessons",
+      "tags": [
+        "Lessons"
+      ],
+      "summary": "POST ",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 206,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot POST /api/auth/login/api/lessons\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/lessons/group/{groupId}",
+      "filledPath": "/api/lessons/group/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/lessons/group/1",
+      "tags": [
+        "Lessons"
+      ],
+      "summary": "GET group/:groupId",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 202,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/lessons/group/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/lessons/{id}",
+      "filledPath": "/api/lessons/{id}",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/lessons/{id}",
+      "tags": [
+        "Lessons"
+      ],
+      "summary": "Get item by id",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 202,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/lessons/%7Bid%7D\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "PUT",
+      "path": "/api/lessons/{id}",
+      "filledPath": "/api/lessons/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/lessons/1",
+      "tags": [
+        "Lessons"
+      ],
+      "summary": "PUT :id",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 203,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot PUT /api/auth/login/api/lessons/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/lessons/{id}",
+      "filledPath": "/api/lessons/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/lessons/1",
+      "tags": [
+        "Lessons"
+      ],
+      "summary": "DELETE :id",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 206,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot DELETE /api/auth/login/api/lessons/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/main-report/course-report",
+      "filledPath": "/api/main-report/course-report",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/main-report/course-report",
+      "tags": [
+        "Main-report"
+      ],
+      "summary": "MainReportController_getLesson",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 203,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/main-report/course-report\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/main-report/users",
+      "filledPath": "/api/main-report/users",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/main-report/users",
+      "tags": [
+        "Main-report"
+      ],
+      "summary": "MainReportController_getUsersReport",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 203,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/main-report/users\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/main-report/roles",
+      "filledPath": "/api/main-report/roles",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/main-report/roles",
+      "tags": [
+        "Main-report"
+      ],
+      "summary": "MainReportController_getRolesReport",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 204,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/main-report/roles\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/main-report/payments",
+      "filledPath": "/api/main-report/payments",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/main-report/payments",
+      "tags": [
+        "Main-report"
+      ],
+      "summary": "MainReportController_getPayedReport",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 208,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/main-report/payments\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/main-report/general-attendance-progress-report",
+      "filledPath": "/api/main-report/general-attendance-progress-report",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/main-report/general-attendance-progress-report",
+      "tags": [
+        "Main-report"
+      ],
+      "summary": "MainReportController_getAttendanceReport",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 204,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/main-report/general-attendance-progress-report\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/main-report/attendance-report",
+      "filledPath": "/api/main-report/attendance-report",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/main-report/attendance-report",
+      "tags": [
+        "Main-report"
+      ],
+      "summary": "MainReportController_getAttendanceGroupReport",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 201,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/main-report/attendance-report\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/main-report/weekly-absence-statistics",
+      "filledPath": "/api/main-report/weekly-absence-statistics",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/main-report/weekly-absence-statistics",
+      "tags": [
+        "Main-report"
+      ],
+      "summary": "MainReportController_getWeeklyAbsenceStatistic",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 206,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/main-report/weekly-absence-statistics\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/main-report/lesson-analytics",
+      "filledPath": "/api/main-report/lesson-analytics",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/main-report/lesson-analytics",
+      "tags": [
+        "Main-report"
+      ],
+      "summary": "MainReportController_getLessonAnalytics",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 206,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/main-report/lesson-analytics\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/main-report/group-attendance-details",
+      "filledPath": "/api/main-report/group-attendance-details",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/main-report/group-attendance-details",
+      "tags": [
+        "Main-report"
+      ],
+      "summary": "MainReportController_getGroupAttendanceDetails",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 205,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/main-report/group-attendance-details\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/lesson-schedule",
+      "filledPath": "/api/lesson-schedule",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/lesson-schedule",
+      "tags": [
+        "LessonsSchudule"
+      ],
+      "summary": "LessonsScheduleController_getLessonSchudule",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 204,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/lesson-schedule\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "POST",
+      "path": "/api/lesson-schedule",
+      "filledPath": "/api/lesson-schedule",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/lesson-schedule",
+      "tags": [
+        "LessonsSchudule"
+      ],
+      "summary": "LessonsScheduleController_crateLessonSchudule",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 203,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot POST /api/auth/login/api/lesson-schedule\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "201"
+    },
+    {
+      "method": "GET",
+      "path": "/api/lesson-schedule/free-rooms",
+      "filledPath": "/api/lesson-schedule/free-rooms",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/lesson-schedule/free-rooms",
+      "tags": [
+        "LessonsSchudule"
+      ],
+      "summary": "LessonsScheduleController_getFreeRooms",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 206,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/lesson-schedule/free-rooms\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/lesson-schedule/{id}",
+      "filledPath": "/api/lesson-schedule/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/lesson-schedule/1",
+      "tags": [
+        "LessonsSchudule"
+      ],
+      "summary": "LessonsScheduleController_getLesson",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 203,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/lesson-schedule/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "PUT",
+      "path": "/api/lesson-schedule/{id}",
+      "filledPath": "/api/lesson-schedule/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/lesson-schedule/1",
+      "tags": [
+        "LessonsSchudule"
+      ],
+      "summary": "LessonsScheduleController_updateLessonSchudule",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 205,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot PUT /api/auth/login/api/lesson-schedule/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/lesson-schedule/{id}",
+      "filledPath": "/api/lesson-schedule/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/lesson-schedule/1",
+      "tags": [
+        "LessonsSchudule"
+      ],
+      "summary": "LessonsScheduleController_deleteLessonSchudule",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 204,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot DELETE /api/auth/login/api/lesson-schedule/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/teacher",
+      "filledPath": "/api/teacher",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/teacher",
+      "tags": [
+        "Teachers"
+      ],
+      "summary": "TeacherController_getAllTeachers",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 205,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/teacher\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "POST",
+      "path": "/api/teacher",
+      "filledPath": "/api/teacher",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/teacher",
+      "tags": [
+        "Teachers"
+      ],
+      "summary": "TeacherController_createTeacher",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 205,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot POST /api/auth/login/api/teacher\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "201"
+    },
+    {
+      "method": "GET",
+      "path": "/api/teacher/archive",
+      "filledPath": "/api/teacher/archive",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/teacher/archive",
+      "tags": [
+        "Teachers"
+      ],
+      "summary": "TeacherController_getAllTeachersArchive",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 205,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/teacher/archive\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/teacher/number-of-teachers",
+      "filledPath": "/api/teacher/number-of-teachers",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/teacher/number-of-teachers",
+      "tags": [
+        "Teachers"
+      ],
+      "summary": "TeacherController_numberOfStudents",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 202,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/teacher/number-of-teachers\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/teacher/{id}",
+      "filledPath": "/api/teacher/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/teacher/1",
+      "tags": [
+        "Teachers"
+      ],
+      "summary": "TeacherController_getTeacher",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 209,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/teacher/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "PUT",
+      "path": "/api/teacher/{id}",
+      "filledPath": "/api/teacher/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/teacher/1",
+      "tags": [
+        "Teachers"
+      ],
+      "summary": "TeacherController_updateTeacher",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 205,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot PUT /api/auth/login/api/teacher/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/teacher/{id}",
+      "filledPath": "/api/teacher/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/teacher/1",
+      "tags": [
+        "Teachers"
+      ],
+      "summary": "TeacherController_deleteTeacher",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 205,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot DELETE /api/auth/login/api/teacher/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/students",
+      "filledPath": "/api/students",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/students",
+      "tags": [
+        "Students"
+      ],
+      "summary": "StudentController_getAllStudents",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 201,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/students\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "POST",
+      "path": "/api/students",
+      "filledPath": "/api/students",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/students",
+      "tags": [
+        "Students"
+      ],
+      "summary": "StudentController_createStudent",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 204,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot POST /api/auth/login/api/students\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/students/archive",
+      "filledPath": "/api/students/archive",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/students/archive",
+      "tags": [
+        "Students"
+      ],
+      "summary": "StudentController_findAllArchived",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 205,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/students/archive\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/students/number-of-students",
+      "filledPath": "/api/students/number-of-students",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/students/number-of-students",
+      "tags": [
+        "Students"
+      ],
+      "summary": "StudentController_numberOfStudents",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 204,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/students/number-of-students\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/students/student-report",
+      "filledPath": "/api/students/student-report",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/students/student-report",
+      "tags": [
+        "Students"
+      ],
+      "summary": "StudentController_studentReport",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 204,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/students/student-report\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/students/student-full-info",
+      "filledPath": "/api/students/student-full-info",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/students/student-full-info",
+      "tags": [
+        "Students"
+      ],
+      "summary": "StudentController_studentFullInfo",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 207,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/students/student-full-info\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/students/discount-report",
+      "filledPath": "/api/students/discount-report",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/students/discount-report",
+      "tags": [
+        "Students"
+      ],
+      "summary": "StudentController_discountReport",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 203,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/students/discount-report\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/students/{id}",
+      "filledPath": "/api/students/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/students/1",
+      "tags": [
+        "Students"
+      ],
+      "summary": "StudentController_getStudent",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 203,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/students/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "PUT",
+      "path": "/api/students/{id}",
+      "filledPath": "/api/students/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/students/1",
+      "tags": [
+        "Students"
+      ],
+      "summary": "StudentController_updateStudent",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 204,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot PUT /api/auth/login/api/students/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/students/{id}",
+      "filledPath": "/api/students/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/students/1",
+      "tags": [
+        "Students"
+      ],
+      "summary": "StudentController_deleteStudent",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 216,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot DELETE /api/auth/login/api/students/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/students/status/{id}",
+      "filledPath": "/api/students/status/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/students/status/1",
+      "tags": [
+        "Students"
+      ],
+      "summary": "StudentController_updateStudentStatus",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 213,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot PATCH /api/auth/login/api/students/status/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/students/restore/{id}",
+      "filledPath": "/api/students/restore/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/students/restore/1",
+      "tags": [
+        "Students"
+      ],
+      "summary": "StudentController_restoreStudent",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 204,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot PATCH /api/auth/login/api/students/restore/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/group",
+      "filledPath": "/api/group",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/group",
+      "tags": [
+        "Groups"
+      ],
+      "summary": "GroupController_getAllGroups",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 213,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/group\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "POST",
+      "path": "/api/group",
+      "filledPath": "/api/group",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/group",
+      "tags": [
+        "Groups"
+      ],
+      "summary": "GroupController_createGroup",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 202,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot POST /api/auth/login/api/group\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "201"
+    },
+    {
+      "method": "GET",
+      "path": "/api/group/archive",
+      "filledPath": "/api/group/archive",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/group/archive",
+      "tags": [
+        "Groups"
+      ],
+      "summary": "GroupController_findAllArchived",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 198,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/group/archive\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/group/number-of-groups",
+      "filledPath": "/api/group/number-of-groups",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/group/number-of-groups",
+      "tags": [
+        "Groups"
+      ],
+      "summary": "GroupController_numberOfGroups",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 196,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/group/number-of-groups\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/group/{id}",
+      "filledPath": "/api/group/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/group/1",
+      "tags": [
+        "Groups"
+      ],
+      "summary": "GroupController_getGroup",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 197,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/group/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "PUT",
+      "path": "/api/group/{id}",
+      "filledPath": "/api/group/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/group/1",
+      "tags": [
+        "Groups"
+      ],
+      "summary": "GroupController_updateGroup",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 206,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot PUT /api/auth/login/api/group/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/group/{id}",
+      "filledPath": "/api/group/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/group/1",
+      "tags": [
+        "Groups"
+      ],
+      "summary": "GroupController_deleteGroup",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 205,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot DELETE /api/auth/login/api/group/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/group/status/{id}",
+      "filledPath": "/api/group/status/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/group/status/1",
+      "tags": [
+        "Groups"
+      ],
+      "summary": "GroupController_updateGroupStatus",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 201,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot PATCH /api/auth/login/api/group/status/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/group/restore/{id}",
+      "filledPath": "/api/group/restore/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/group/restore/1",
+      "tags": [
+        "Groups"
+      ],
+      "summary": "GroupController_restoreGroup",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 204,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot PATCH /api/auth/login/api/group/restore/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/group/students/{groupId}",
+      "filledPath": "/api/group/students/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/group/students/1",
+      "tags": [
+        "Groups"
+      ],
+      "summary": "GroupController_getGroupsByTeacher",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 204,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/group/students/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/group/studentby-group/{studentId}",
+      "filledPath": "/api/group/studentby-group/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/group/studentby-group/1",
+      "tags": [
+        "Groups"
+      ],
+      "summary": "GroupController_getGroupByStudent",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 205,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/group/studentby-group/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/group/absences/{id}",
+      "filledPath": "/api/group/absences/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/group/absences/1",
+      "tags": [
+        "Groups"
+      ],
+      "summary": "GroupController_absentStudentsReport",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 207,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/group/absences/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/group/group-report/{id}",
+      "filledPath": "/api/group/group-report/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/group/group-report/1",
+      "tags": [
+        "Groups"
+      ],
+      "summary": "GroupController_groupReport",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 205,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/group/group-report/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/questions",
+      "filledPath": "/api/questions",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/questions",
+      "tags": [
+        "Questions"
+      ],
+      "summary": "QuestionsController_getAllquestions",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 208,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/questions\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "POST",
+      "path": "/api/questions",
+      "filledPath": "/api/questions",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/questions",
+      "tags": [
+        "Questions"
+      ],
+      "summary": "QuestionsController_createQuestion",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 204,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot POST /api/auth/login/api/questions\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "201"
+    },
+    {
+      "method": "GET",
+      "path": "/api/questions/{id}",
+      "filledPath": "/api/questions/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/questions/1",
+      "tags": [
+        "Questions"
+      ],
+      "summary": "QuestionsController_getQuestion",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 201,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/questions/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "PUT",
+      "path": "/api/questions/{id}",
+      "filledPath": "/api/questions/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/questions/1",
+      "tags": [
+        "Questions"
+      ],
+      "summary": "o'ziga tegishili bo'lgan questionsni yangilash uchun aynan shu teacher bo'lishi kerak , MANAGER, ADMIN, SUPER_ADMIN savolarni yangilay olmaydi",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 205,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot PUT /api/auth/login/api/questions/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/questions/{id}",
+      "filledPath": "/api/questions/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/questions/1",
+      "tags": [
+        "Questions"
+      ],
+      "summary": "o'ziga tegishili bo'lgan questionsni o'chirib tashlash uchun aynan shu teacher bo'lishi kerak",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 204,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot DELETE /api/auth/login/api/questions/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/quiz",
+      "filledPath": "/api/quiz",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/quiz",
+      "tags": [
+        "Quizs"
+      ],
+      "summary": "QuizController_getAllQuizs",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 204,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/quiz\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "POST",
+      "path": "/api/quiz",
+      "filledPath": "/api/quiz",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/quiz",
+      "tags": [
+        "Quizs"
+      ],
+      "summary": "QuizController_createQuiz",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 204,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot POST /api/auth/login/api/quiz\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "201"
+    },
+    {
+      "method": "GET",
+      "path": "/api/quiz/statistics",
+      "filledPath": "/api/quiz/statistics",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/quiz/statistics",
+      "tags": [
+        "Quizs"
+      ],
+      "summary": "QuizController_getAllQuizStatistics",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 204,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/quiz/statistics\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/quiz/{quizId}/start",
+      "filledPath": "/api/quiz/1/start",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/quiz/1/start",
+      "tags": [
+        "Quizs"
+      ],
+      "summary": "QuizController_startQuiz",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 211,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/quiz/1/start\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "POST",
+      "path": "/api/quiz/finish",
+      "filledPath": "/api/quiz/finish",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/quiz/finish",
+      "tags": [
+        "Quizs"
+      ],
+      "summary": "QuizController_finishQuiz",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 206,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot POST /api/auth/login/api/quiz/finish\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "201"
+    },
+    {
+      "method": "GET",
+      "path": "/api/quiz/{quizId}/questions",
+      "filledPath": "/api/quiz/1/questions",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/quiz/1/questions",
+      "tags": [
+        "Quizs"
+      ],
+      "summary": "QuizController_getQuestionByQuiz",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 207,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/quiz/1/questions\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/quiz/{id}",
+      "filledPath": "/api/quiz/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/quiz/1",
+      "tags": [
+        "Quizs"
+      ],
+      "summary": "QuizController_getQuizById",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 208,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/quiz/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "PUT",
+      "path": "/api/quiz/{id}",
+      "filledPath": "/api/quiz/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/quiz/1",
+      "tags": [
+        "Quizs"
+      ],
+      "summary": "QuizController_updateQuiz",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 200,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot PUT /api/auth/login/api/quiz/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/quiz/{id}",
+      "filledPath": "/api/quiz/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/quiz/1",
+      "tags": [
+        "Quizs"
+      ],
+      "summary": "QuizController_deleteQuiz",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 199,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot DELETE /api/auth/login/api/quiz/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/payments",
+      "filledPath": "/api/payments",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/payments",
+      "tags": [
+        "Payments"
+      ],
+      "summary": "PaymentController_getAllPayments",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 201,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/payments\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "POST",
+      "path": "/api/payments",
+      "filledPath": "/api/payments",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/payments",
+      "tags": [
+        "Payments"
+      ],
+      "summary": "PaymentController_createPayment",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 199,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot POST /api/auth/login/api/payments\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "201"
+    },
+    {
+      "method": "GET",
+      "path": "/api/payments/stats-cards",
+      "filledPath": "/api/payments/stats-cards",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/payments/stats-cards",
+      "tags": [
+        "Payments"
+      ],
+      "summary": "PaymentController_getPaymentStats",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 210,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/payments/stats-cards\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/payments/{id}",
+      "filledPath": "/api/payments/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/payments/1",
+      "tags": [
+        "Payments"
+      ],
+      "summary": "PaymentController_getPaymentById",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 205,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/payments/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "PUT",
+      "path": "/api/payments/{id}",
+      "filledPath": "/api/payments/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/payments/1",
+      "tags": [
+        "Payments"
+      ],
+      "summary": "PaymentController_updatePayment",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 206,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot PUT /api/auth/login/api/payments/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/payments/{id}",
+      "filledPath": "/api/payments/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/payments/1",
+      "tags": [
+        "Payments"
+      ],
+      "summary": "PaymentController_deletePayment",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 207,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot DELETE /api/auth/login/api/payments/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "POST",
+      "path": "/api/payments/sync",
+      "filledPath": "/api/payments/sync",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/payments/sync",
+      "tags": [
+        "Payments"
+      ],
+      "summary": "PaymentController_syncPayments",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 205,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot POST /api/auth/login/api/payments/sync\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "201"
+    },
+    {
+      "method": "GET",
+      "path": "/api/results/my-quiz",
+      "filledPath": "/api/results/my-quiz",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/results/my-quiz",
+      "tags": [
+        "Results"
+      ],
+      "summary": "ResultsController_getMyQuizResult",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 201,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/results/my-quiz\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/results/quizs",
+      "filledPath": "/api/results/quizs",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/results/quizs",
+      "tags": [
+        "Results"
+      ],
+      "summary": "Get quiz results for a specific quiz role ADMIN, MANAGER, TEACHER SUPER_ADMIN",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 203,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/results/quizs\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/results/by-student",
+      "filledPath": "/api/results/by-student",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/results/by-student",
+      "tags": [
+        "Results"
+      ],
+      "summary": "ResultsController_getResultsByStudentId",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 203,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/results/by-student\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/roles",
+      "filledPath": "/api/roles",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/roles",
+      "tags": [
+        "Roles"
+      ],
+      "summary": "RolesController_findAll",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 110,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/roles\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "POST",
+      "path": "/api/roles",
+      "filledPath": "/api/roles",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/roles",
+      "tags": [
+        "Roles"
+      ],
+      "summary": "RolesController_create",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 106,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot POST /api/auth/login/api/roles\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/roles/{id}",
+      "filledPath": "/api/roles/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/roles/1",
+      "tags": [
+        "Roles"
+      ],
+      "summary": "RolesController_findOne",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 106,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/roles/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "PUT",
+      "path": "/api/roles/{id}",
+      "filledPath": "/api/roles/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/roles/1",
+      "tags": [
+        "Roles"
+      ],
+      "summary": "RolesController_update",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 108,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot PUT /api/auth/login/api/roles/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/roles/{id}",
+      "filledPath": "/api/roles/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/roles/1",
+      "tags": [
+        "Roles"
+      ],
+      "summary": "RolesController_remove",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 200,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot DELETE /api/auth/login/api/roles/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/roles/some",
+      "filledPath": "/api/roles/some",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/roles/some",
+      "tags": [
+        "Roles"
+      ],
+      "summary": "RolesController_getSomeRoles",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 197,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/roles/some\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/movement-reason",
+      "filledPath": "/api/movement-reason",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/movement-reason",
+      "tags": [
+        "Movement reason"
+      ],
+      "summary": "MovementController_getAllMovementTypes",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 199,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/movement-reason\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "POST",
+      "path": "/api/movement-reason",
+      "filledPath": "/api/movement-reason",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/movement-reason",
+      "tags": [
+        "Movement reason"
+      ],
+      "summary": "MovementController_createMovementType",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 198,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot POST /api/auth/login/api/movement-reason\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "201"
+    },
+    {
+      "method": "GET",
+      "path": "/api/movement-reason/{id}",
+      "filledPath": "/api/movement-reason/{id}",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/movement-reason/{id}",
+      "tags": [
+        "Movement reason"
+      ],
+      "summary": "MovementController_getMovementTypeById",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 207,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/movement-reason/%7Bid%7D\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "PUT",
+      "path": "/api/movement-reason/{id}",
+      "filledPath": "/api/movement-reason/{id}",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/movement-reason/{id}",
+      "tags": [
+        "Movement reason"
+      ],
+      "summary": "MovementController_updateMovementType",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 203,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot PUT /api/auth/login/api/movement-reason/%7Bid%7D\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/movement-reason/{id}",
+      "filledPath": "/api/movement-reason/{id}",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/movement-reason/{id}",
+      "tags": [
+        "Movement reason"
+      ],
+      "summary": "MovementController_deleteMovementType",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 203,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot DELETE /api/auth/login/api/movement-reason/%7Bid%7D\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/courses",
+      "filledPath": "/api/courses",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/courses",
+      "tags": [
+        "Courses"
+      ],
+      "summary": "GET ",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 205,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/courses\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/courses/{id}",
+      "filledPath": "/api/courses/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/courses/1",
+      "tags": [
+        "Courses"
+      ],
+      "summary": "Get item by id",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 205,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/courses/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "POST",
+      "path": "/api/courses/{id}",
+      "filledPath": "/api/courses/{id}",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/courses/{id}",
+      "tags": [
+        "Courses"
+      ],
+      "summary": "Create item",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 206,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot POST /api/auth/login/api/courses/%7Bid%7D\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "PUT",
+      "path": "/api/courses/{id}",
+      "filledPath": "/api/courses/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/courses/1",
+      "tags": [
+        "Courses"
+      ],
+      "summary": "Update item",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 205,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot PUT /api/auth/login/api/courses/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/courses/{id}",
+      "filledPath": "/api/courses/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/courses/1",
+      "tags": [
+        "Courses"
+      ],
+      "summary": "Delete item",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 205,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot DELETE /api/auth/login/api/courses/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/discounts",
+      "filledPath": "/api/discounts",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/discounts",
+      "tags": [
+        "Discounts"
+      ],
+      "summary": "DiscountController_findAll",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 206,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/discounts\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "POST",
+      "path": "/api/discounts",
+      "filledPath": "/api/discounts",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/discounts",
+      "tags": [
+        "Discounts"
+      ],
+      "summary": "DiscountController_create",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 205,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot POST /api/auth/login/api/discounts\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "201"
+    },
+    {
+      "method": "GET",
+      "path": "/api/discounts/stats",
+      "filledPath": "/api/discounts/stats",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/discounts/stats",
+      "tags": [
+        "Discounts"
+      ],
+      "summary": "DiscountController_getStats",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 201,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/discounts/stats\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/discounts/{id}",
+      "filledPath": "/api/discounts/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/discounts/1",
+      "tags": [
+        "Discounts"
+      ],
+      "summary": "DiscountController_findOne",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 204,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/discounts/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "PUT",
+      "path": "/api/discounts/{id}",
+      "filledPath": "/api/discounts/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/discounts/1",
+      "tags": [
+        "Discounts"
+      ],
+      "summary": "DiscountController_update",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 204,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot PUT /api/auth/login/api/discounts/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/discounts/{id}",
+      "filledPath": "/api/discounts/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/discounts/1",
+      "tags": [
+        "Discounts"
+      ],
+      "summary": "DiscountController_remove",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 205,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot DELETE /api/auth/login/api/discounts/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/branch",
+      "filledPath": "/api/branch",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/branch",
+      "tags": [
+        "Branch"
+      ],
+      "summary": "BranchController_getAllBranches",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 206,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/branch\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "POST",
+      "path": "/api/branch",
+      "filledPath": "/api/branch",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/branch",
+      "tags": [
+        "Branch"
+      ],
+      "summary": "BranchController_createBranch",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 204,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot POST /api/auth/login/api/branch\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "201"
+    },
+    {
+      "method": "GET",
+      "path": "/api/branch/{id}",
+      "filledPath": "/api/branch/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/branch/1",
+      "tags": [
+        "Branch"
+      ],
+      "summary": "BranchController_getBranchById",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 207,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/branch/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "PUT",
+      "path": "/api/branch/{id}",
+      "filledPath": "/api/branch/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/branch/1",
+      "tags": [
+        "Branch"
+      ],
+      "summary": "BranchController_updateBranch",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 205,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot PUT /api/auth/login/api/branch/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/branch/{id}",
+      "filledPath": "/api/branch/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/branch/1",
+      "tags": [
+        "Branch"
+      ],
+      "summary": "BranchController_deleteBranch",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 202,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot DELETE /api/auth/login/api/branch/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/dashboard",
+      "filledPath": "/api/dashboard",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/dashboard",
+      "tags": [
+        "Dashboard"
+      ],
+      "summary": "DashboardController_getDashboard",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 205,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/dashboard\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin",
+      "filledPath": "/api/admin",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/admin",
+      "tags": [
+        "Admin"
+      ],
+      "summary": "AdminController_findAll",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 204,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/admin\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "POST",
+      "path": "/api/admin",
+      "filledPath": "/api/admin",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/admin",
+      "tags": [
+        "Admin"
+      ],
+      "summary": "AdminController_create",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 204,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot POST /api/auth/login/api/admin\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/admin/{id}",
+      "filledPath": "/api/admin/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/admin/1",
+      "tags": [
+        "Admin"
+      ],
+      "summary": "AdminController_findOne",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 204,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/admin/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "PUT",
+      "path": "/api/admin/{id}",
+      "filledPath": "/api/admin/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/admin/1",
+      "tags": [
+        "Admin"
+      ],
+      "summary": "AdminController_update",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 204,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot PUT /api/auth/login/api/admin/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/admin/{id}",
+      "filledPath": "/api/admin/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/admin/1",
+      "tags": [
+        "Admin"
+      ],
+      "summary": "AdminController_remove",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 207,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot DELETE /api/auth/login/api/admin/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/payments-transaction",
+      "filledPath": "/api/payments-transaction",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/payments-transaction",
+      "tags": [
+        "PaymentTransactions"
+      ],
+      "summary": "PaymentTransactionController_getAllPaymentTransactions",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 203,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/payments-transaction\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "POST",
+      "path": "/api/payments-transaction",
+      "filledPath": "/api/payments-transaction",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/payments-transaction",
+      "tags": [
+        "PaymentTransactions"
+      ],
+      "summary": "PaymentTransactionController_createPaymentTransaction",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 204,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot POST /api/auth/login/api/payments-transaction\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "201"
+    },
+    {
+      "method": "GET",
+      "path": "/api/payments-transaction/{id}",
+      "filledPath": "/api/payments-transaction/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/payments-transaction/1",
+      "tags": [
+        "PaymentTransactions"
+      ],
+      "summary": "PaymentTransactionController_getPaymentById",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 204,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/payments-transaction/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "PUT",
+      "path": "/api/payments-transaction/{id}",
+      "filledPath": "/api/payments-transaction/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/payments-transaction/1",
+      "tags": [
+        "PaymentTransactions"
+      ],
+      "summary": "PaymentTransactionController_updatePayment",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 206,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot PUT /api/auth/login/api/payments-transaction/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/payments-transaction/{id}",
+      "filledPath": "/api/payments-transaction/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/payments-transaction/1",
+      "tags": [
+        "PaymentTransactions"
+      ],
+      "summary": "PaymentTransactionController_deletePayment",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 206,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot DELETE /api/auth/login/api/payments-transaction/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/transactions",
+      "filledPath": "/api/transactions",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/transactions",
+      "tags": [
+        "Transactions"
+      ],
+      "summary": "TransactionsController_getAllTransactions",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 204,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/transactions\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "POST",
+      "path": "/api/transactions",
+      "filledPath": "/api/transactions",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/transactions",
+      "tags": [
+        "Transactions"
+      ],
+      "summary": "TransactionsController_createTransaction",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 205,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot POST /api/auth/login/api/transactions\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "201"
+    },
+    {
+      "method": "GET",
+      "path": "/api/transactions/{id}",
+      "filledPath": "/api/transactions/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/transactions/1",
+      "tags": [
+        "Transactions"
+      ],
+      "summary": "TransactionsController_getTransactionById",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 208,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/transactions/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "PUT",
+      "path": "/api/transactions/{id}",
+      "filledPath": "/api/transactions/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/transactions/1",
+      "tags": [
+        "Transactions"
+      ],
+      "summary": "TransactionsController_updateTransaction",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 206,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot PUT /api/auth/login/api/transactions/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/transactions/{id}",
+      "filledPath": "/api/transactions/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/transactions/1",
+      "tags": [
+        "Transactions"
+      ],
+      "summary": "TransactionsController_deleteTransaction",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 202,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot DELETE /api/auth/login/api/transactions/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/finance-report",
+      "filledPath": "/api/finance-report",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/finance-report",
+      "tags": [
+        "Finance Report"
+      ],
+      "summary": "FinanceReportController_getFinancialReport",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 205,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/finance-report\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/finance-report/total",
+      "filledPath": "/api/finance-report/total",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/finance-report/total",
+      "tags": [
+        "Finance Report"
+      ],
+      "summary": "FinanceReportController_getMonthlyReport",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 204,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/finance-report/total\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/finance-report/groups-by-payment-statistics",
+      "filledPath": "/api/finance-report/groups-by-payment-statistics",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/finance-report/groups-by-payment-statistics",
+      "tags": [
+        "Finance Report"
+      ],
+      "summary": "FinanceReportController_getGroupsByPaymentStatistics",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 204,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/finance-report/groups-by-payment-statistics\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/finance-report/student-by-payment-statistic/{groupId}",
+      "filledPath": "/api/finance-report/student-by-payment-statistic/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/finance-report/student-by-payment-statistic/1",
+      "tags": [
+        "Finance Report"
+      ],
+      "summary": "FinanceReportController_getStudentByPaymentStatistics",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 205,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/finance-report/student-by-payment-statistic/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/finance-report/monitoring",
+      "filledPath": "/api/finance-report/monitoring",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/finance-report/monitoring",
+      "tags": [
+        "Finance Report"
+      ],
+      "summary": "FinanceReportController_getMonitoringData",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 202,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/finance-report/monitoring\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/finance-report/debt-lookup",
+      "filledPath": "/api/finance-report/debt-lookup",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/finance-report/debt-lookup",
+      "tags": [
+        "Finance Report"
+      ],
+      "summary": "FinanceReportController_getDebtLookup",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 209,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/finance-report/debt-lookup\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "POST",
+      "path": "/api/finance-report/audit",
+      "filledPath": "/api/finance-report/audit",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/finance-report/audit",
+      "tags": [
+        "Finance Report"
+      ],
+      "summary": "FinanceReportController_createCashAudit",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 204,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot POST /api/auth/login/api/finance-report/audit\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "201"
+    },
+    {
+      "method": "GET",
+      "path": "/api/finance-report/audit-history",
+      "filledPath": "/api/finance-report/audit-history",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/finance-report/audit-history",
+      "tags": [
+        "Finance Report"
+      ],
+      "summary": "FinanceReportController_getCashAuditHistory",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 204,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/finance-report/audit-history\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/salary",
+      "filledPath": "/api/salary",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/salary",
+      "tags": [
+        "Salary"
+      ],
+      "summary": "GET ",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 205,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/salary\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/salary/{id}",
+      "filledPath": "/api/salary/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/salary/1",
+      "tags": [
+        "Salary"
+      ],
+      "summary": "Get item by id",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 205,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/salary/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "POST",
+      "path": "/api/salary/{id}",
+      "filledPath": "/api/salary/{id}",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/salary/{id}",
+      "tags": [
+        "Salary"
+      ],
+      "summary": "Create item",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 201,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot POST /api/auth/login/api/salary/%7Bid%7D\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "PUT",
+      "path": "/api/salary/{id}",
+      "filledPath": "/api/salary/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/salary/1",
+      "tags": [
+        "Salary"
+      ],
+      "summary": "Update item",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 203,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot PUT /api/auth/login/api/salary/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/salary/{id}",
+      "filledPath": "/api/salary/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/salary/1",
+      "tags": [
+        "Salary"
+      ],
+      "summary": "Delete item",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 203,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot DELETE /api/auth/login/api/salary/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/debts/student-debts/{studentId}",
+      "filledPath": "/api/debts/student-debts/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/debts/student-debts/1",
+      "tags": [
+        "Debts"
+      ],
+      "summary": "DebtController_getStudentDebts",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 208,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/debts/student-debts/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/debts",
+      "filledPath": "/api/debts",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/debts",
+      "tags": [
+        "Debts"
+      ],
+      "summary": "GET ",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 205,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/debts\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "GET",
+      "path": "/api/debts/{id}",
+      "filledPath": "/api/debts/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/debts/1",
+      "tags": [
+        "Debts"
+      ],
+      "summary": "Get item by id",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 203,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot GET /api/auth/login/api/debts/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "POST",
+      "path": "/api/debts/{id}",
+      "filledPath": "/api/debts/{id}",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/debts/{id}",
+      "tags": [
+        "Debts"
+      ],
+      "summary": "Create item",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 204,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot POST /api/auth/login/api/debts/%7Bid%7D\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "PUT",
+      "path": "/api/debts/{id}",
+      "filledPath": "/api/debts/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/debts/1",
+      "tags": [
+        "Debts"
+      ],
+      "summary": "Update item",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 205,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot PUT /api/auth/login/api/debts/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/debts/{id}",
+      "filledPath": "/api/debts/1",
+      "url": "https://dev.api.lms.itechacademy.uz/api/auth/login/api/debts/1",
+      "tags": [
+        "Debts"
+      ],
+      "summary": "Delete item",
+      "needsAuth": true,
+      "httpStatus": 404,
+      "durationMs": 203,
+      "status": "not_found",
+      "error": null,
+      "responseBody": "{\"message\":\"Cannot DELETE /api/auth/login/api/debts/1\",\"error\":\"Not Found\",\"statusCode\":404}",
+      "expected": "200"
+    }
+  ]
+}
